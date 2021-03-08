@@ -33,7 +33,7 @@ button, a {
 .wrapper__first{
   background: url('../images/bg-header.jpg');
   background-repeat: no-repeat;
-  background-size: 75% 100%;
+  background-size: 80% 100%;
   /* background: linear-gradient(#feb75b, #fe3e57);  */
 }
 
