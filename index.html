@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ServiceTrade</title>
+  <link href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" rel="stylesheet" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link href="./assets/styles/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f4078840fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper wrapper__first">
+    <div class="inner">
+      <header class="header">
+        <a href="/"><img class="logo" src="./assets/images/icon/logo.png" alt="logo"></a>
+        <a class="header__phone" href="tel:+375445700101"><i class="fas fa-phone-volume"></i>+375 (44) 570-01-01</a>
+      </header>
+      <section class="header__content">
+        <div class="header__inner">
+          <h1 class="header__content--title">Место качественного ремонта здесь</h1>
+          <span class="header__content--subtitle">Быстро, качественно и аккуратно</span>
+          <ul class="header__content--list">
+            <li class="content__list list__item"><i class="fas fa-angle-right"></i>Срочный ремонт любой сложности</li>
+            <li class="content__list list__item"><i class="fas fa-angle-right"></i>Оплата по факту согласовано фиксированому прейскуранту цен</li>
+          </ul>
+          <div class="block__button">
+            <button class="btn btn__feedback">Обратный звонок</button>
+            <button class="btn btn__status">Статус заказа</button>
+          </div>
+        </div>
+        <div class="header__inner--img">
+          <img class="header__img" src="./assets/images/comp.png" alt="background">
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="wrapper wrapper__second">
+    <div class="inner">
+      <section class="list__service">
+        <div class="section__inner">
+          <h2 class="sevice__title">Ремонт любой сложности:</h2>
+          <div class="block__list">
+            <ul class="services__list">
+              <li class="list__item"><i class="fas fa-angle-right"></i>Компьютерная помощь</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Установка Windows</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Установка драйверов</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Настройка Wi-fi</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Удаление вирусов</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Установка антивируса</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Восстановление данных</li>
+            </ul>
+            <ul class="services__list">
+              <li class="list__item"><i class="fas fa-angle-right"></i>Установка программ</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Чистка компьютера</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Сборка/Апдейт</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Не включается</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Не работает интернет</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Не работает Windows</li>
+              <li class="list__item"><i class="fas fa-angle-right"></i>Замена клавиатуры</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="consalt">
+          <i class="fas fa-id-badge"></i>
+          <button class="button__colsalt btn">Бесплатная консультация</button>
+        </div>
+    </div>
+  </div>
+
+  
+  <div class="modal__feedback">
+    <div class="modal__wrapper">
+      <div class="modal__header">
+        <h3 class="modal__title">Обратный звонок</h3>
+        <button class="closed">X</button>
+      </div>
+      <form class="form__feedback" action>
+        <div class="block__input">
+          <input id="name" name="name" type="text" placeholder="Имя">
+        </div>
+        <div class="block__input">
+          <input id="phone" name="phone" type="text" placeholder="Номер телефона">
+        </div>
+        <div class="block__input">
+          <textarea id="message" name="message" cols="20" rows="5" placeholder="Сообщение"></textarea>
+        </div>
+        <button class="btn" id="feedback__submit" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./assets/scripts/burger.js"></script>
+  <script src="./assets/scripts/main.js"></script>
+  </body>
+</html>
